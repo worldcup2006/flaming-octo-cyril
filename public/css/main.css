@@ -1,0 +1,277 @@
+html, body, #container{
+    height:100%;
+    font-size:100%;
+}
+html{
+    background:#fff;
+    color:#444;
+}
+body{
+    /*background:#ddd;*/
+    font-family:'Oswald', 'Arial', sans-serif;
+    /*font-family: Georgia, "Times New Roman", Times, serif;*/
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration:none;
+    color:#07C;
+}
+ul{
+    list-style:none;
+}
+#container{
+    min-width:780px;
+    max-width:1000px;
+    margin:auto;
+    background:#fff;    
+}
+#main{
+    min-height:100%;
+    margin:0 0 -31px;
+    border-left:solid 1px #ddd;
+    border-right:solid 1px #ddd;
+    background:#fff;
+}
+#all{
+    overflow:hidden;
+    padding:0 0 30px;
+}
+#right{
+    float:right;
+    width:220px;
+    border-left:solid 1px #ddd;
+    padding:20px;
+}
+#center{
+    padding:10px;
+    margin-right:260px;
+    border-right:solid 1px #ddd;
+}
+#footer{
+    height:30px;
+    text-align:right;
+    /*background:#cfc;*/
+    border-top:solid 1px #ddd;
+}
+.fleft{
+    float:left;
+}
+.fright{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+/*Header*/
+#header{
+    border-left:solid 1px #ddd;
+    border-right:solid 1px #ddd;
+    padding:30px;
+}
+#header-acr{
+    margin:0px 0 10px 0;
+    text-shadow:1px 2px 1px #c5d1d9;
+    font-size:30px;
+    letter-spacing:0.1em;
+}
+#header-acr a{
+    color:#222;
+    text-decoration:none;
+}
+#header-text{
+    color:#aaa;
+    font-size:0.7em;
+    font-style:italic;
+}
+/* Menu */
+#topMenu{
+    border-bottom:1px solid #ccc;
+    height:34px;
+    clear:both;
+}
+#tabs{
+    margin-left:40px;
+    float:left;
+    font-weight:bold;
+}
+#tabs a{
+    background:inherit;
+    border:1px solid #fff;
+    color:#777;
+    display:block;
+    float:left;
+    font-size:90%;
+    height:24px;
+    line-height:22px;
+    margin:8px 8px 0 0;
+    padding:0 11px 0 11px;
+    text-decoration:none;
+}
+#tabs a:hover{
+    background:#fff;
+    border:1px solid #ccc;
+    border-bottom-color:#fff;
+    line-height:20px;
+    margin-top:9px;
+}
+#tabs a.current{
+    background:#fff;
+    border:1px solid #ccc;
+    border-bottom-color:#ffffff;
+    color:black;font-size:120%;
+    height:30px;
+    line-height:28px;
+    margin-top:3px;
+    padding:0px 11px 0px 11px;
+}
+/*Posts*/
+.post{
+    border:1px solid #c5d1d9;
+    margin:25px 0;
+}
+.entryHead{
+    background-color:#777;
+
+}
+.entryTitle{
+    font-family:Arial, Helvetica, serif;
+    font-size:20px;
+    font-weight:normal;
+    
+}
+.entryTitle a{
+    text-decoration:none;
+    color:#fff;
+    padding:6px 20px;
+    display:block;
+}
+.entryTitle a:hover{
+    /*border-bottom:1px dashed #66f;*/
+    color:#f90;
+}
+.entryContent{
+    padding:10px;
+    margin:10px;    
+    line-height:25px;
+    
+    font-size:15px;
+}
+.entryMeta{
+    padding:9px 20px;
+    border-top:1px solid #c5d1d9;
+}
+
+.date{
+    font-family: "New Century Schoolbook", serif;
+}
+
+/*Form*/
+form.commonForm legend{
+    margin-left:30px;
+}
+form.commonForm{
+    border-top:1px solid #ddd;
+    padding:15px;
+    /*width:430px;*/
+}
+form.commonForm label{
+    float:left;
+    width:300px;
+    text-align:left;
+}
+form.commonForm input, form.commonForm textarea{
+    float:left;
+    width:450px;
+}
+form.commonForm p{
+    clear:both;
+    padding:15px 0 0 5px;
+}
+form.commonForm div.captcha input{
+    /*float:left;*/
+    display:block;
+    width:160px;
+}
+form.commonForm div.captcha label{
+    /*float:left;*/
+    margin-left:5px;
+}
+div.captcha img{
+    /*float:right;*/
+    display:block;
+}
+div.captcha{
+    padding:10px 0;
+    width:450px;
+    clear:both;
+}
+form.commonForm input.submit{
+    width:160px;
+
+}
+
+/*Post*/
+#showPost{
+    padding:5px 10px;
+}
+#showPost .text{
+    line-height:1.5em;
+    font-size: 13px;
+    margin:10px 0;
+    line-height: 160%;
+    font-family: Verdana, sans-serif;
+}
+#showPost .text p{
+    margin-bottom:10px;
+}
+#showPost h1{
+    color:#333;
+    font-size:30px/118%;
+    font-weight:normal;
+    font-family:Verdana, Tahoma, sans-serif;
+    letter-spacing:-1px;
+}
+#showPost h2{
+    color:#999;
+}
+#showPost .date{
+    color:#7E7E7E;
+    font-size:11px;
+    margin-bottom:2px;
+}
+
+/*Comments*/
+#comments{
+    padding-top:10px;
+    border-top:1px solid #ddd;
+    margin:10px 0;
+    
+}
+#comments .message{
+    font-size:13px;
+    font-family:Arial, sans-serif;
+    line-height:140%;
+    padding-bottom:5px;
+    padding-top:10px;
+}
+#comments h2{
+    color: #cba;
+    margin-bottom:20px;
+    padding-left:20px;
+    font-size:20px;
+    font-weight:normal;
+    font-family:Verdana, sans-serif;
+    letter-spacing:-1px;
+}
+#comments .author{
+    font-weight:bold;
+}
+#comments .time{
+    margin-left:10px;
+    color:#666;
+    font-size:10px;
+}
